@@ -13,7 +13,11 @@ q=&p;
 // RÓWNOZNACZNY Z
 // int *p=&a;
 
-printf("Adres pointer: %d Adresa %d\n",&p,&a);
+
+
+
+
+printf("Adres pointeujr: %d Adresa %d\n",&p,&a);
 printf("Adres: %d zmiennej %d\n",p,*p);
 printf("200:%d 201:%d\n",*p,*p+1);
 printf("Adres*q:%d **q:%d",q,**q);
