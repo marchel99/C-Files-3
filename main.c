@@ -6,7 +6,7 @@
 int main()
 {
  
-    enum Day today=Sun;
+    enum Day today=Mon;
     printf("%d",today);
 
 
