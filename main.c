@@ -1,37 +1,14 @@
 #include <stdio.h>
-
 #include <stdlib.h>
 
-typedef int km;
+    enum Day{Sun=1,Mon=2,Tue=3,Wed=4,Thu=5,Fri=6,Sat=7};
 
 int main()
 {
+ 
+    enum Day today=Sun;
+    printf("%d",today);
 
-    int *array;
-    array = malloc(1000 * sizeof(int));
-    for (int i = 0; i < 1000; ++i)
-
-        printf("%d", array[i]);
-
-    free(array);
-
-
-    int a = 1;
-
-    km b = 2;
-    km c = 3;
-
-    int table[] = {1, 2, 3};
-
-  /*   printf("ok\n");
-
-    for (int i = 0; i <= 2; ++i)
-    {
-        printf("Cyfra w tabeli: %d\n", table[i]);
-    }
-    printf("b+c= %d", (b + c));
-
- */
 
 
     return 0;
