@@ -6,6 +6,7 @@
 int main()
 
 
+
 {
  
     enum Day today=Mon;
